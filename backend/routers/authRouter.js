@@ -1,5 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
+const postgres = require('pg');
 
 const authHelper = require('../helpers/authHelper');
 const userModel = require('../data/models/UserModel');
